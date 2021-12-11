@@ -1,5 +1,5 @@
-import { Profile } from '../lib/constants'
-import Avatar from './Avatar'
+import { Profile } from "../lib/constants"
+import Avatar from "./Avatar"
 
 export default function ProfileCard({ profile }: { profile: Profile }) {
   const lastUpdated = profile.updated_at ? new Date(profile.updated_at) : null
@@ -13,10 +13,8 @@ export default function ProfileCard({ profile }: { profile: Profile }) {
         </a>
         <p>
           <small>
-            Last updated{' '}
-            {lastUpdated
-              ? `${lastUpdated.toLocaleDateString()} ${lastUpdated.toLocaleTimeString()}`
-              : 'Never'}
+            Last updated{" "}
+            {lastUpdated ? `${lastUpdated.toLocaleDateString()} ${lastUpdated.toLocaleTimeString()}` : "Never"}
           </small>
         </p>
       </div>

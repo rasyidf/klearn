@@ -1,4 +1,4 @@
-import { ChangeEventHandler } from 'react'
+import { ChangeEventHandler } from "react"
 
 export type UploadButtonProps = {
   onUpload: ChangeEventHandler<HTMLInputElement>
@@ -9,12 +9,12 @@ export default function UploadButton(props: UploadButtonProps) {
   return (
     <div>
       <label className="button primary block" htmlFor="single">
-        {props.loading ? 'Uploading ...' : 'Upload'}
+        {props.loading ? "Uploading ..." : "Upload"}
       </label>
       <input
         style={{
-          visibility: 'hidden',
-          position: 'absolute',
+          visibility: "hidden",
+          position: "absolute",
         }}
         type="file"
         id="single"
