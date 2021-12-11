@@ -1,0 +1,21 @@
+{
+    "background_color": "#121212",
+    "description": "Kodesiana Learning Platform",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Kodesiana Learn",
+    "orientation": "landscape",
+    "scope": "/",
+    "short_name": "KLearn",
+    "start_url": "/",
+    "theme_color": "#1f5641",
+    "categories": [],
+    "screenshots": [],
+    "shortcuts": [],
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "type": "image/x-icon"
+        }
+    ]
+}
