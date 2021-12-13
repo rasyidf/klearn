@@ -3,7 +3,7 @@ export default function Footer({}) {
     <div className="footer">
       <div className=""></div>
       <div className="">
-        <span className="text-sm">Powered by</span>
+        <span className="text-sm">Powered by </span>
         KodeLearn
       </div>
       <div className="flex flex-end"></div>

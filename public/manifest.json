@@ -1,9 +1,9 @@
 {
     "background_color": "#121212",
-    "description": "Kodesiana Learning Platform",
+    "description": "Kode Learning Platform",
     "dir": "ltr",
     "display": "standalone",
-    "name": "Kodesiana Learn",
+    "name": "Kode Learn",
     "orientation": "landscape",
     "scope": "/",
     "short_name": "KLearn",
